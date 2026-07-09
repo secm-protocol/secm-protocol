@@ -36,6 +36,7 @@ Drafts receive an RFC number only on acceptance by protocol consensus
 | [draft-rx-input-specification](drafts/draft-rx-input-specification.md) | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
 | [draft-semantic-layer](drafts/draft-semantic-layer.md) | 2 | Claude (AI) |
 | [draft-licensing](drafts/draft-licensing.md) | 3 | Claude (AI) |
+| [draft-environmental-ingestion](drafts/draft-environmental-ingestion.md) | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
 | [draft-reference-slice](drafts/draft-reference-slice.md) | 2 | Claude (AI) |
 
 ## Process

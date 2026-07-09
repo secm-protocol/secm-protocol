@@ -41,6 +41,14 @@ Anyone can prove a given document existed, unmodified, at a given date — witho
 content (including personal data) ever touching the chain. This is required by the
 Privacy Architecture: only content-free proofs are permanent.
 
+**Multi-chain by design (Vision Keeper decision, 2026-07-09).** The protocol never
+subjects itself to a single blockchain — that would recreate the single point of
+failure this layer exists to eliminate (Architect's Charter, principle 7). Each release
+proof is anchored on **at least two independent chains** (candidates: Bitcoin,
+Ethereum, Solana, Polygon — the exact set, anchoring format and rotation rules are
+fixed by the anchoring RFC). A hash is tiny; anchoring it twice costs almost nothing
+and survives the death of any one chain.
+
 ## Layer 4 — Public Mirrors
 
 - Internet Archive
@@ -61,5 +69,5 @@ GitHub → Release → Zenodo → DOI → Hash → Blockchain → Mirrors
 |---|---|
 | GitHub organization | Pending — to be created by the Vision Keeper (`secm-protocol`) |
 | Zenodo integration | Pending — activated at first Release (v1.0) |
-| Blockchain anchoring | Pending — RFC required (chain choice, anchoring format) |
+| Blockchain anchoring | Pending — RFC required; **multi-chain (≥2 independent chains) decided 2026-07-09** |
 | Mirrors | Pending — after v1.0 |
