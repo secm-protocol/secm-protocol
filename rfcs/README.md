@@ -42,6 +42,7 @@ Rejected/superseded drafts are archived, never deleted.
 |---|---|---|
 | [draft-fe008-minimal-loop](drafts/draft-fe008-minimal-loop.md) | 2 | Claude (AI) |
 | [draft-personal-solver](drafts/draft-personal-solver.md) | 2 | Claude (AI) |
+| [draft-ee001-cycle-analysis](drafts/draft-ee001-cycle-analysis.md) — *deferred until data exists* | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
 
 ## Process
 
