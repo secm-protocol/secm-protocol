@@ -1,8 +1,9 @@
-# DRAFT — FE-008 Minimal Validation Loop: Outcomes and Calibration v0.1
+# RFC-0018 — FE-008 Minimal Validation Loop: Outcomes and Calibration v0.1
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review (implementation on `feature/rfc-0018-0019-slice-completion`) |
+| **RFC** | 0018 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive — Protocol Core service, per RFC-0012) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0002, RFC-0009, RFC-0012, RFC-0013, RFC-0017 |
@@ -81,3 +82,4 @@ each is future work gated on real data existing.
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-09 | Draft; implementation on feature branch per CONTRIBUTING flow | — |
+| 2026-07-09 | **Accepted** — merged to `develop`, 67/67 tests green | Vision Keeper (Osvaldo) |
