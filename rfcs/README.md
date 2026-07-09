@@ -37,7 +37,9 @@ specification (RFC-0000 §21).
 Drafts receive an RFC number only on acceptance by protocol consensus (RFC-0001 §2).
 Rejected/superseded drafts are archived, never deleted.
 
-*(none at the moment — next up: minimal CKE convergence specification)*
+| Draft | Class | Proposed by |
+|---|---|---|
+| [draft-cke-minimal-convergence](drafts/draft-cke-minimal-convergence.md) | 2 | Claude (AI) |
 
 ## Process
 
