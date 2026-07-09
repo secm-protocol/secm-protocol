@@ -1,6 +1,6 @@
 """Universal Semantic Layer v0.1 identifier registry.
 
-Source of truth: rfcs/drafts/draft-semantic-layer.md (RFC-0003 candidate).
+Source of truth: rfcs/RFC-0003-semantic-layer.md.
 Identifiers name meaning, not wording. Nothing is ever deleted — only deprecated.
 """
 
