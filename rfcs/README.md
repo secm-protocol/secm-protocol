@@ -22,6 +22,7 @@ specification (RFC-0000 §21).
 | [RFC-0014](RFC-0014-environmental-ingestion.md) | Environmental Ingestion: The Protocol Updates Its World Model | Accepted 2026-07-09 | 2 |
 | [RFC-0015](RFC-0015-fe005-context-engine.md) | FE-005 Context System: RX Context Profile v0.1 | Accepted 2026-07-09 | 2 |
 | [RFC-0016](RFC-0016-fe006-behavioral-engine.md) | FE-006 Behavioral System: RX Behavioral Encoding v0.1 | Accepted 2026-07-09 | 2 |
+| [RFC-0017](RFC-0017-cke-minimal-convergence.md) | CKE Minimal Convergence: The Directional Estimation v0.1 | Accepted 2026-07-09 | 2 |
 
 ## Founding Roadmap
 
@@ -39,7 +40,8 @@ Rejected/superseded drafts are archived, never deleted.
 
 | Draft | Class | Proposed by |
 |---|---|---|
-| [draft-cke-minimal-convergence](drafts/draft-cke-minimal-convergence.md) | 2 | Claude (AI) |
+| [draft-fe008-minimal-loop](drafts/draft-fe008-minimal-loop.md) | 2 | Claude (AI) |
+| [draft-personal-solver](drafts/draft-personal-solver.md) | 2 | Claude (AI) |
 
 ## Process
 

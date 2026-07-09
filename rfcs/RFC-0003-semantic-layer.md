@@ -100,3 +100,4 @@ wording — comparability across languages is structural.
 | 2026-07-08 | Draft | — |
 | 2026-07-09 | **Accepted** (en-bloc Vision Keeper approval) | Vision Keeper (Osvaldo) |
 | 2026-07-09 | Registry amendment: `PERSON_BEHAVIOR_PROFILE` added per RFC-0016 | Class 2, via RFC-0016 acceptance |
+| 2026-07-09 | Registry amendment: `PERSON_DIRECTIONAL_ESTIMATION` added per RFC-0017 | Class 2, via RFC-0017 acceptance |
