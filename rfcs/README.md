@@ -42,6 +42,7 @@ Rejected/superseded drafts are archived, never deleted.
 
 | Draft | Class | Proposed by |
 |---|---|---|
+| [draft-bcb-ingestion](drafts/draft-bcb-ingestion.md) | 2 | Claude (AI) |
 | [draft-ee001-cycle-analysis](drafts/draft-ee001-cycle-analysis.md) — *deferred until data exists* | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
 
 ## Process

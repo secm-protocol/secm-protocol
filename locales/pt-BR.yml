@@ -1,0 +1,85 @@
+# SECM RX Questionnaire v0.1 — locale pt-BR
+# Canônico: RFC-0011 (EN). Traduções preservam o significado exatamente
+# (RFC-0003 §4). A ordem das opções é vinculante: option_index segue a
+# ordem canônica. Mudança de texto canônico = Classe 2; tradução = Classe 1.
+version: "0.1.0"
+canonical: RFC-0011
+language: pt-BR
+approved: "2026-07-09"
+consent_note: >
+  O consentimento é apresentado como termos no início, fora da contagem de
+  perguntas. O token de continuidade é um mecanismo, não uma pergunta.
+
+questions:
+  Q1:
+    text: "Qual é o seu nome completo de nascimento?"
+    privacy: "texto — nunca armazenado"
+  Q2:
+    text: "Qual é a sua data de nascimento?"
+    privacy: "nunca armazenada; apenas a faixa etária é mantida"
+  Q3:
+    text: "Onde você nasceu? (cidade, país)"
+    privacy: "nunca armazenado; apenas a macrorregião é mantida"
+  Q4:
+    text: "Onde você vive hoje? (cidade, país)"
+    privacy: "mantido apenas como região"
+  Q5:
+    text: "Onde você quer direção agora?"
+    options:
+      - "Carreira — crescer no caminho atual"
+      - "Carreira — mudar de direção"
+      - "Começar ou crescer algo próprio"
+      - "Finanças — organizar / recuperar"
+      - "Finanças — construir e multiplicar"
+      - "Educação — o que estudar a seguir"
+      - "Relacionamentos — pessoal"
+      - "Relacionamentos — profissional"
+      - "Mudança — se e para onde ir"
+      - "Direção pessoal — geral"
+  Q6:
+    text: "Qual é a sua área de atuação?"
+    options:
+      - "Tecnologia"
+      - "Saúde"
+      - "Educação"
+      - "Comércio/Varejo"
+      - "Indústria"
+      - "Serviços"
+      - "Finanças"
+      - "Criativo/Mídia"
+      - "Setor público"
+      - "Agro"
+      - "Logística/Transporte"
+      - "Nenhuma no momento"
+      - "Outra"
+  Q7:
+    text: "Quando precisa decidir sob pressão, o que você realmente faz com mais frequência?"
+    options:
+      - "Decido rápido, por instinto"
+      - "Busco mais informação, mesmo que atrase a decisão"
+      - "Consulto pessoas de confiança antes de agir"
+      - "Adio até que decidir se torne inevitável"
+  Q8:
+    text: "Qual frase descreve melhor a sua relação com risco?"
+    options:
+      - "O risco me atrai — sigo com segurança apenas parcial"
+      - "Corro riscos calculados, mas só depois de planejar"
+      - "Prefiro estabilidade; arrisco só quando encurralado"
+      - "Evito risco sempre que possível"
+  Q9:
+    text: "Até onde você planeja de verdade?"
+    options:
+      - "Vivo o dia a dia"
+      - "Semanas a poucos meses"
+      - "Mantenho planos de 1 a 3 anos"
+      - "Tenho uma visão de 5+ anos que guia as escolhas de hoje"
+  Q10:
+    text: "(opcional) Com suas palavras: descreva seu momento atual e o que você quer mudar."
+    privacy: "100–300 palavras — processado e destruído; apenas metadata linguística é mantida"
+
+reading:
+  disclaimer: >
+    O SECM estima direções; nunca determina destino (RFC-0000 §2). Esta
+    leitura é uma hipótese construída a partir das suas declarações e do
+    contexto disponível — não um veredito. Registrar o que realmente
+    acontecer é o que torna as próximas leituras melhores.
