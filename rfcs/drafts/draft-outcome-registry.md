@@ -64,9 +64,13 @@ when the protocol says 70%, it must be right ~70% of the time).
 ### 4. Network enrichment — with privacy as a hard boundary
 
 The brain grows from **anonymized, aggregated, non-re-identifiable** data only
-(Privacy Architecture §4). Individual records stay in the erasable tier and belong to
-the person. Population-level patterns — person × place, person × context, trajectory ×
-outcome — become collective knowledge only above re-identification thresholds.
+(Privacy Architecture). Individual records stay in the erasable tier, keyed by the
+person's anonymous **continuity token** — the protocol never stores who they are
+(identifying inputs are ephemeral, Tier 0). Longitudinal linkage — connecting a later
+outcome to an earlier estimation — happens only when the person presents their token.
+Population-level patterns — behavior × place, positioning × context, trajectory ×
+outcome, mass dynamics — become collective knowledge only above re-identification
+thresholds.
 
 ### 5. Niche engines
 

@@ -25,35 +25,72 @@ knowledge graph and any integrity anchoring — doing it first costs almost noth
 
 ## Specification
 
-1. **Consent is the root of every personal-data chain.** No metadata unit derived from
+### Founding rule (Vision Keeper directive)
+
+When a person runs their RX, they provide personal data as **input**. Identifying data
+is **deliberately never stored**. What the protocol keeps is behavior, positioning and
+context — de-identified — because what serves the mission is understanding direction
+(individual and collective), never knowing who the person is.
+
+1. **Ephemeral identity processing (Tier 0).** Identifying inputs — name, birth date,
+   precise location, and anything re-identifying — exist only in volatile memory for
+   the duration of the computation session. Engines consume them, produce derived
+   metadata, and the identifying inputs are destroyed at session end. They are never
+   written to durable storage, logs, caches or backups. The derived encodings that
+   persist (e.g., a nominal or temporal encoding value) are non-identifying values
+   carrying their transformation record, never the raw input.
+   - **Honest technical note:** hashing is not anonymization for low-entropy data —
+     a hashed name or birth date is trivially reversible by dictionary attack.
+     Therefore provenance records for identity-derived units store only the semantic
+     type used (e.g., `PERSON_NAME`) and the transformation applied — never the raw
+     value and never a naive hash of it.
+2. **Consent is the root of every personal-data chain.** No metadata unit derived from
    personal data exists without a `consent_scope` reference recording what was consented,
    when, and for which purposes. Processing beyond scope is a protocol violation.
-2. **Data minimization.** Engines receive only the semantic identifiers their
+3. **Data minimization.** Engines receive only the semantic identifiers their
    transformation requires (this is Zero Trust, RFC-0000 §15, applied internally).
-3. **Two-tier storage:**
-   - **Erasable tier:** all personal data and derived personal metadata live in
-     erasable storage. A person's erasure request removes their data and all derived
-     units in the provenance chain.
-   - **Permanent tier:** only content-free artifacts are permanent — hashes,
+   Stored behavioral and contextual metadata is generalized against fingerprinting:
+   quasi-identifiers are bucketed after computation (exact birth date → age band,
+   precise location → region) before persistence.
+4. **Storage tiers:**
+   - **Tier 0 — ephemeral (identity):** volatile memory only, destroyed per session
+     (rule 1). Nothing identifying survives the RX computation.
+   - **Erasable tier (behavior):** de-identified behavioral, positional and contextual
+     metadata, keyed only by an anonymous continuity token (rule 5). Erasable on
+     request by whoever presents the token.
+   - **Permanent tier:** only content-free artifacts — hashes of protocol documents,
      version records, DOIs, aggregate statistics that cannot be re-identified.
-     Any future blockchain anchoring stores **hashes only**, never content. Proof of
-     existence survives erasure; the content does not.
-4. **The "historical brain" learns from anonymized aggregates.** Population-level
-   patterns (see draft: Outcome Registry) are computed over anonymized, aggregated,
-   non-re-identifiable data. Individual records never migrate into permanent collective
-   knowledge.
-5. **Right of access:** a person can receive every metadata unit derived from their
-   data, with its full provenance — the audit trail (RFC-0000 §22) doubles as the
-   transparency guarantee to the data subject.
+     Any future blockchain anchoring stores **hashes only**, never content.
+5. **Continuity token — longitudinal linkage without identity.** The learning loop
+   (draft: Outcome Registry) needs to connect a person's later outcomes to their
+   earlier estimations. Since the protocol stores no identity, linkage works through a
+   **random anonymous token generated at RX time and held by the person** — the
+   protocol stores only the token, linkable to that person's de-identified metadata but
+   to nothing else. Presenting the token reconnects the history; losing it breaks the
+   chain permanently — that is the honest price of identity-free design, and it is
+   accepted. The token also serves as proof of ownership for erasure and access rights.
+6. **The "historical brain" learns from anonymized aggregates.** Population-level
+   patterns — behavior × context, positioning × trajectory, mass dynamics — are
+   computed over anonymized, aggregated, non-re-identifiable data. Individual records
+   never migrate into permanent collective knowledge.
+7. **Right of access and erasure — via token.** Whoever presents a continuity token can
+   receive every metadata unit linked to it, with full provenance (the audit trail of
+   RFC-0000 §22 doubles as the transparency guarantee), and can have all of it erased.
 
 ## Validation Criteria
 
-- Erasure test: after an erasure request, no unit in any store resolves to the person;
-  permanent-tier artifacts reveal nothing about them.
-- Consent test: attempting to create a personal-data unit without `consent_scope` fails
-  at the schema level.
-- Re-identification test: aggregates published to the permanent tier resist standard
-  re-identification attacks (k-anonymity threshold to be fixed at implementation RFC).
+- **Tier 0 test:** after an RX session ends, a full storage audit (databases, logs,
+  caches, backups, crash dumps) finds zero identifying inputs. This is a release gate,
+  not a promise.
+- **Erasure test:** presenting a continuity token and requesting erasure removes every
+  linked unit in every store; permanent-tier artifacts reveal nothing about the person.
+- **Consent test:** attempting to create a personal-data unit without `consent_scope`
+  fails at the schema level.
+- **Re-identification test:** stored behavioral metadata and published aggregates
+  resist standard re-identification attacks (k-anonymity threshold and bucketing rules
+  fixed at implementation RFC).
+- **Provenance leak test:** no provenance record of an identity-derived unit contains
+  a raw identifying value or a naive hash of one.
 
 ## Premortem
 

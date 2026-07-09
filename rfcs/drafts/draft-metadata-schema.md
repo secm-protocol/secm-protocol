@@ -52,6 +52,9 @@ Every metadata unit is a versioned, immutable record:
 Rules:
 
 1. **No unit without provenance.** Root units reference their raw-input descriptor.
+   For identifying inputs, the descriptor records only the semantic type (e.g.,
+   `PERSON_NAME`) and the transformation applied — never the raw value, never a naive
+   hash of it (Privacy Architecture, Tier 0: identifying inputs are ephemeral).
 2. **No unit without an explicit transformation description** — including
    `source_tradition`, so the origin of every mechanism is auditable end-to-end
    (RFC-0000 §4 + §22: neutral exposure at UI level, full transparency at audit level).
