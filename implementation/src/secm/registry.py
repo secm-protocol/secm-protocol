@@ -61,6 +61,11 @@ REGISTRY: dict[str, str] = {
     "PROTOCOL_CONSENT_SCOPE": ACTIVE,
     "PROTOCOL_OUTCOME": ACTIVE,
     "PROTOCOL_EVIDENCE_TIER": ACTIVE,
+    # Added per RFC-0018 (calibration measurement)
+    "PROTOCOL_CALIBRATION_REPORT": ACTIVE,
+    # Added per RFC-0019 (Personal Solver reading); PERSON_ namespace so
+    # consent enforcement applies automatically
+    "PERSON_DIRECTIONAL_READING": ACTIVE,
 }
 
 
