@@ -49,7 +49,8 @@ resolvable forever (historical records reference them). Registry changes are Cla
 `PERSON_TRAJECTORY_5Y`
 
 **Person — behavioral (RX active):**
-`PERSON_BEHAVIOR_DECISION` · `PERSON_BEHAVIOR_RISK` · `PERSON_BEHAVIOR_HORIZON`
+`PERSON_BEHAVIOR_DECISION` · `PERSON_BEHAVIOR_RISK` · `PERSON_BEHAVIOR_HORIZON` ·
+`PERSON_BEHAVIOR_PROFILE` *(composite, added per RFC-0016)*
 
 **Person — behavioral (reserved, benchmark-gated swaps):**
 `PERSON_BEHAVIOR_HABIT` · `PERSON_BEHAVIOR_SOCIAL` · `PERSON_BEHAVIOR_FAILURE` ·
@@ -98,3 +99,4 @@ wording — comparability across languages is structural.
 |---|---|---|
 | 2026-07-08 | Draft | — |
 | 2026-07-09 | **Accepted** (en-bloc Vision Keeper approval) | Vision Keeper (Osvaldo) |
+| 2026-07-09 | Registry amendment: `PERSON_BEHAVIOR_PROFILE` added per RFC-0016 | Class 2, via RFC-0016 acceptance |
