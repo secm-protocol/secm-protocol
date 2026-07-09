@@ -5,7 +5,7 @@
 | **Status** | Draft — awaiting Vision Keeper review |
 | **Class** | 3 (Constitutional — implements precedence rank 1) |
 | **Authors** | Vision Keeper (Osvaldo — requirement); Implementation Workforce (Claude — AI, drafting) |
-| **Requires** | RFC-0000, RFC-0001, draft-metadata-schema |
+| **Requires** | RFC-0000, RFC-0001, RFC-0002 |
 | **Created** | 2026-07-08 |
 
 ## Summary

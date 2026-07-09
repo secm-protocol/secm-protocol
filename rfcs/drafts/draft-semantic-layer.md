@@ -5,7 +5,7 @@
 | **Status** | Draft — awaiting Vision Keeper review |
 | **Class** | 2 (Substantive) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
-| **Requires** | RFC-0000 §11, draft-metadata-schema |
+| **Requires** | RFC-0000 §11, RFC-0002 |
 | **Created** | 2026-07-08 |
 | **Roadmap slot** | RFC-0003 (Universal Semantic Layer) if accepted |
 

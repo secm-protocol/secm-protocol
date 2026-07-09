@@ -4,7 +4,7 @@
 |---|---|
 | **RFC** | 0001 |
 | **Title** | Operational Constitution: Governance Mechanics |
-| **Status** | Draft — awaiting Vision Keeper ratification |
+| **Status** | Ratified — 2026-07-09 |
 | **Class** | 3 (Constitutional) |
 | **Authors** | Vision Keeper (Osvaldo); drafted by Implementation Workforce (Claude) |
 | **Requires** | RFC-0000 |
@@ -165,3 +165,10 @@ Restating and operationalizing RFC-0000 §16:
    amendable via §3; superseded texts remain archived.
 5. **How is explainability preserved?** All decisions, interpretations and amendments are
    written, reasoned and historically registered.
+
+## Status History
+
+| Date | Status | Decided by |
+|---|---|---|
+| 2026-07-08 | Draft | — |
+| 2026-07-09 | **Ratified** | Vision Keeper (Osvaldo) |

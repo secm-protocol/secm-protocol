@@ -1,13 +1,13 @@
-# DRAFT — Canonical Metadata Schema (Protocol Language)
+# RFC-0002 — Protocol Language: Canonical Metadata Schema
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0002 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0000, RFC-0001 |
 | **Created** | 2026-07-08 |
-| **Roadmap slot** | RFC-0002 (Protocol Language) if accepted |
 
 ## Summary
 
@@ -88,3 +88,4 @@ Rules:
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-08 | Draft | — |
+| 2026-07-09 | **Accepted** | Vision Keeper (Osvaldo) |

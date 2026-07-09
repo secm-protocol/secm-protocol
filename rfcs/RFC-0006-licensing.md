@@ -1,8 +1,9 @@
-# DRAFT — Protocol Licensing
+# RFC-0006 — Protocol Licensing
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0006 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 3 (Constitutional — legal foundation of the no-owner principle) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0000, RFC-0001 |
@@ -65,3 +66,4 @@ needs licenses that make capture by any company, person or AI impossible.
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-08 | Draft | — |
+| 2026-07-09 | **Accepted** — LICENSE (Apache 2.0) and LICENSE-DOCS (CC BY 4.0) in force | Vision Keeper (Osvaldo) |

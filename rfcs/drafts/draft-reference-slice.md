@@ -5,7 +5,7 @@
 | **Status** | Draft — awaiting Vision Keeper review |
 | **Class** | 2 (Substantive) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
-| **Requires** | RFC-0000, RFC-0001, draft-metadata-schema |
+| **Requires** | RFC-0000, RFC-0001, RFC-0002 |
 | **Created** | 2026-07-08 |
 
 ## Summary
@@ -27,7 +27,7 @@ demonstrable, benchmarkable artifact — the seed of credibility.
 
 The slice (exact scope to be fixed by the Vision Keeper):
 
-1. **Canonical metadata schema** (draft-metadata-schema) — implemented and enforced.
+1. **Canonical metadata schema** (RFC-0002) — implemented and enforced.
 2. **Two Foundation Engines** — proposed: FE-005 (Context System) and FE-006
    (Behavioral System), because they exercise consent, provenance and real-world data
    from day one.

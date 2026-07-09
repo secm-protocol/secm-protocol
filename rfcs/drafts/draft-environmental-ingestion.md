@@ -5,7 +5,7 @@
 | **Status** | Draft — awaiting Vision Keeper review |
 | **Class** | 2 (Substantive) |
 | **Authors** | **Vision Keeper (Osvaldo)** — concept; Implementation Workforce (Claude — AI, drafting) |
-| **Requires** | RFC-0000, draft-metadata-schema, draft-outcome-registry, draft-privacy-architecture |
+| **Requires** | RFC-0000, RFC-0002, draft-outcome-registry, draft-privacy-architecture |
 | **Created** | 2026-07-09 |
 
 ## Summary
@@ -53,6 +53,14 @@ are — fed from **correct sources, constantly**. Priority order:
    preferred over scraping search engines or social platforms.
 3. **Attention/engagement signals** — optional, never the goal, and if ever used,
    confined to E0 as defined in §4.
+
+**Breadth directive (Vision Keeper, 2026-07-09):** the protocol may use **all possible
+existing sources, without restriction of type or origin — provided they are
+trustworthy**. The registry is a trust gate, never a breadth limit. A source qualifies
+for registration when it has: verifiable provenance, an identifiable and stable
+publisher, lawful access and licensing, and a correction/retraction practice. Tier
+placement (§4) still applies per source class — breadth is unlimited, evidence weight
+is earned.
 
 ### 3. Data lands as canonical metadata
 
@@ -114,3 +122,4 @@ FE-005 Context) to exist first. Nothing ships before its implementation RFC.
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-09 | Draft | — |
+| 2026-07-09 | Breadth directive recorded: all trustworthy sources, no type restriction | Vision Keeper (Osvaldo) |

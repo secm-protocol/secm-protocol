@@ -23,9 +23,10 @@ is adopted by faith. Nothing is hidden from audit.
 
 ## Status
 
-**Pre-v1.0 — constitutional phase.** The founding documents are written; governance
-mechanics await Vision Keeper ratification; no protocol code exists yet, by design:
-*no line of code without a corresponding RFC.*
+**Pre-v1.0 — specification phase.** The constitution is ratified (RFC-0000, RFC-0001),
+the protocol language is accepted (RFC-0002), and licensing is in force (RFC-0006).
+No protocol code exists yet, by design: *no line of code without a corresponding RFC* —
+implementation begins with the vertical-slice RFCs.
 
 ## Repository
 
@@ -50,6 +51,14 @@ Constitution → Protocol Core → Foundation Engines → Extension Engines → 
 Nine Foundation Engines define the protocol's identity (RFC-0000 §8). The human being
 is permanently at the center (§5). Outputs are always explainable, weighted, versioned,
 traceable and confidence-scored — never deterministic (§13).
+
+## License
+
+- **Documents** (RFCs, constitution, manifesto, governance): [CC BY 4.0](LICENSE-DOCS)
+- **Code** (all implementations in this organization): [Apache License 2.0](LICENSE)
+
+See [RFC-0006](rfcs/RFC-0006-licensing.md). Anyone may mirror, translate and build upon
+the protocol; no one may own it.
 
 ## Governance in one line
 

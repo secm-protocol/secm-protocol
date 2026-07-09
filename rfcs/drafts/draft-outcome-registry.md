@@ -5,7 +5,7 @@
 | **Status** | Draft — awaiting Vision Keeper review |
 | **Class** | 2 (Substantive) |
 | **Authors** | **Vision Keeper (Osvaldo)** — concept; Implementation Workforce (Claude — AI, drafting) |
-| **Requires** | RFC-0000, RFC-0001, draft-metadata-schema, draft-privacy-architecture |
+| **Requires** | RFC-0000, RFC-0001, RFC-0002, draft-privacy-architecture |
 | **Created** | 2026-07-08 |
 
 ## Summary

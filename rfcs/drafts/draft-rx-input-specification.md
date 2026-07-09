@@ -5,7 +5,7 @@
 | **Status** | Draft — awaiting Vision Keeper review |
 | **Class** | 2 (Substantive) |
 | **Authors** | **Vision Keeper (Osvaldo)** — requirements and 10-question cap; Implementation Workforce (Claude — AI, analysis and drafting) |
-| **Requires** | RFC-0000, draft-metadata-schema, draft-privacy-architecture |
+| **Requires** | RFC-0000, RFC-0002, draft-privacy-architecture |
 | **Created** | 2026-07-08 |
 | **Seeds** | RFC-0003 (Universal Semantic Layer) — first identifier registry |
 
@@ -92,7 +92,7 @@ who the person is.
 
 1. Band 1 alone must produce a valid RX. Confidence scoring reflects input coverage
    honestly: fewer answers → wider uncertainty, stated to the user.
-2. Every persisted answer is a canonical metadata unit (draft-metadata-schema) with
+2. Every persisted answer is a canonical metadata unit (RFC-0002) with
    `consent_scope` set at intake.
 3. Question wording and option lists are versioned; changing them is Class 2
    (population comparability breaks silently otherwise).
