@@ -11,6 +11,7 @@ specification (RFC-0000 §21).
 | [RFC-0001](RFC-0001-constitution.md) | Operational Constitution: Governance Mechanics | **Ratified 2026-07-09** | 3 |
 | [RFC-0002](RFC-0002-metadata-schema.md) | Protocol Language: Canonical Metadata Schema | **Accepted 2026-07-09** | 2 |
 | [RFC-0006](RFC-0006-licensing.md) | Protocol Licensing (Apache 2.0 + CC BY 4.0) | **Accepted 2026-07-09** | 3 |
+| [RFC-0007](RFC-0007-schema-validator.md) | Reference Implementation: Metadata Unit Validator | **Accepted 2026-07-09** | 2 |
 
 ## Founding Roadmap
 
@@ -37,7 +38,6 @@ Drafts receive an RFC number only on acceptance by protocol consensus
 | [draft-rx-input-specification](drafts/draft-rx-input-specification.md) | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
 | [draft-semantic-layer](drafts/draft-semantic-layer.md) | 2 | Claude (AI) |
 | [draft-environmental-ingestion](drafts/draft-environmental-ingestion.md) | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
-| [draft-schema-validator-implementation](drafts/draft-schema-validator-implementation.md) | 2 | Claude (AI) |
 | [draft-reference-slice](drafts/draft-reference-slice.md) | 2 | Claude (AI) |
 
 ## Process

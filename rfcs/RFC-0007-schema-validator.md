@@ -1,8 +1,9 @@
-# DRAFT — Reference Implementation: RFC-0002 Metadata Unit Validator
+# RFC-0007 — Reference Implementation: RFC-0002 Metadata Unit Validator
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review (implementation on `feature/rfc-0007-schema-validator`, merge gated on acceptance) |
+| **RFC** | 0007 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive — first protocol code) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0002 (accepted), draft-semantic-layer |
@@ -88,3 +89,4 @@ envelope only.
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-09 | Draft; implementation started on feature branch per CONTRIBUTING flow | — |
+| 2026-07-09 | **Accepted** — implementation merged to `develop`, 16/16 tests green | Vision Keeper (Osvaldo) |
