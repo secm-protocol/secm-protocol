@@ -42,6 +42,18 @@ identifiers it feeds (e.g., `ECON_INDICATOR`, `PLACE_CITY`, `EVENT_HISTORICAL`).
 **No undeclared sources** — a hidden feed is a hidden transformation (RFC-0000 §22).
 Registry changes are Class 2.
 
+**Source priority (Vision Keeper clarification, 2026-07-09):** the purpose of
+ingestion is that the protocol knows, at RX time, how a place and its context actually
+are — fed from **correct sources, constantly**. Priority order:
+
+1. **Official statistical and institutional sources** — government statistics bureaus
+   and open-data portals (e.g., IBGE), central banks (e.g., Banco Central do Brasil
+   time-series API), multilateral institutions (World Bank, IMF, UN, Eurostat).
+2. **Structured news-event aggregators** (e.g., GDELT) — for event context at scale,
+   preferred over scraping search engines or social platforms.
+3. **Attention/engagement signals** — optional, never the goal, and if ever used,
+   confined to E0 as defined in §4.
+
 ### 3. Data lands as canonical metadata
 
 Ingested data becomes standard metadata units: `entity_ref` = graph entities,
