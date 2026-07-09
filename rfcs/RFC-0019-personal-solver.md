@@ -1,8 +1,9 @@
-# DRAFT — Personal Solver v0.1: The Human-Readable Reading
+# RFC-0019 — Personal Solver v0.1: The Human-Readable Reading
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review (implementation on `feature/rfc-0018-0019-slice-completion`) |
+| **RFC** | 0019 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive — first Solver, per RFC-0000 §10) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0002, RFC-0011, RFC-0013, RFC-0017 |
@@ -88,3 +89,4 @@ templates are Class 1 once canonical text is approved (RFC-0003 §4).
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-09 | Draft; implementation on feature branch per CONTRIBUTING flow | — |
+| 2026-07-09 | **Accepted** — merged to `develop`, 67/67 tests green | Vision Keeper (Osvaldo) |

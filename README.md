@@ -23,13 +23,14 @@ is adopted by faith. Nothing is hidden from audit.
 
 ## Status
 
-**Pre-v1.0 — vertical slice under construction.** The constitution is ratified and
-**13 RFCs are active** — governance, protocol language, semantic layer, privacy
-architecture, outcome registry, pseudonymous contribution-weighted governance, the
-10-question RX intake, licensing and environmental ingestion. The first code
-(RFC-0007, the metadata unit validator) is merged on `develop` with a green test
-suite. Next: the first two Foundation Engines (FE-005 Context, FE-006 Behavioral),
-each behind its own RFC — *no line of code without a corresponding RFC.*
+**Pre-v1.0 — the vertical slice is complete.** The constitution is ratified and
+**18 RFCs are active**. The full RX pipeline runs end-to-end on `develop` with a
+green test suite: 10-question intake → FE-005 Context + FE-006 Behavioral → CKE
+convergence → human-readable reading → outcome registration → Brier calibration.
+Every artifact validates against the canonical schema, every sentence in a reading
+cites its evidence, and every confidence score explains itself. Next: real-world
+usage, ingestion pipelines, and the road to the v1.0 release —
+*no line of code without a corresponding RFC.*
 
 ## Repository
 
