@@ -1,11 +1,12 @@
-# DRAFT — RX Input Specification: The 10-Question Intake
+# RFC-0011 — RX Input Specification: The 10-Question Intake
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0011 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive) |
 | **Authors** | **Vision Keeper (Osvaldo)** — requirements and 10-question cap; Implementation Workforce (Claude — AI, analysis and drafting) |
-| **Requires** | RFC-0000, RFC-0002, draft-privacy-architecture |
+| **Requires** | RFC-0000, RFC-0002, RFC-0008 |
 | **Created** | 2026-07-08 |
 | **Seeds** | RFC-0003 (Universal Semantic Layer) — first identifier registry |
 
@@ -74,7 +75,7 @@ outweighs abandonment, noise and re-identification cost — and passes Class 2 c
 - FE-003 produces intake metadata **only when Q10 is answered**; otherwise it
   contributes nothing to that RX and confidence reflects it.
 - FE-004's individual-level input comes from continuity-token returns, not from intake;
-  its population-level input comes from the historical brain (draft-outcome-registry).
+  its population-level input comes from the historical brain (RFC-0009).
 - The behavioral core was compressed from 7 planned questions to 3 (Q7–Q9: decision,
   risk, horizon — the highest expected signal for directional estimation). The four cut
   dimensions (habit consistency, social positioning, response to failure, energy
@@ -178,3 +179,4 @@ to change. *(100–300 words — processed and destroyed; only linguistic metada
 |---|---|---|
 | 2026-07-08 | Draft | — |
 | 2026-07-08 | Hard cap set at 10 questions; minimum must suffice | **Vision Keeper** |
+| 2026-07-09 | **Accepted** (en-bloc Vision Keeper approval) | Vision Keeper (Osvaldo) |

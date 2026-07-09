@@ -1,11 +1,12 @@
-# DRAFT — Outcome Registry: The Historical Knowledge Brain
+# RFC-0009 — Outcome Registry: The Historical Knowledge Brain
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0009 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive) |
 | **Authors** | **Vision Keeper (Osvaldo)** — concept; Implementation Workforce (Claude — AI, drafting) |
-| **Requires** | RFC-0000, RFC-0001, RFC-0002, draft-privacy-architecture |
+| **Requires** | RFC-0000, RFC-0001, RFC-0002, RFC-0008 |
 | **Created** | 2026-07-08 |
 
 ## Summary
@@ -105,3 +106,4 @@ normal RFC pipeline — engines born from evidence, not from opinion.
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-08 | Draft | — |
+| 2026-07-09 | **Accepted** (en-bloc Vision Keeper approval) | Vision Keeper (Osvaldo) |

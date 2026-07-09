@@ -1,11 +1,12 @@
-# DRAFT — Environmental Ingestion: The Protocol Updates Its World Model
+# RFC-0014 — Environmental Ingestion: The Protocol Updates Its World Model
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0014 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive) |
 | **Authors** | **Vision Keeper (Osvaldo)** — concept; Implementation Workforce (Claude — AI, drafting) |
-| **Requires** | RFC-0000, RFC-0002, draft-outcome-registry, draft-privacy-architecture |
+| **Requires** | RFC-0000, RFC-0002, RFC-0009, RFC-0008 |
 | **Created** | 2026-07-09 |
 
 ## Summary
@@ -123,3 +124,4 @@ FE-005 Context) to exist first. Nothing ships before its implementation RFC.
 |---|---|---|
 | 2026-07-09 | Draft | — |
 | 2026-07-09 | Breadth directive recorded: all trustworthy sources, no type restriction | Vision Keeper (Osvaldo) |
+| 2026-07-09 | **Accepted** (en-bloc Vision Keeper approval) | Vision Keeper (Osvaldo) |

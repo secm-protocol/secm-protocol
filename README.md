@@ -23,10 +23,13 @@ is adopted by faith. Nothing is hidden from audit.
 
 ## Status
 
-**Pre-v1.0 — specification phase.** The constitution is ratified (RFC-0000, RFC-0001),
-the protocol language is accepted (RFC-0002), and licensing is in force (RFC-0006).
-No protocol code exists yet, by design: *no line of code without a corresponding RFC* —
-implementation begins with the vertical-slice RFCs.
+**Pre-v1.0 — vertical slice under construction.** The constitution is ratified and
+**13 RFCs are active** — governance, protocol language, semantic layer, privacy
+architecture, outcome registry, pseudonymous contribution-weighted governance, the
+10-question RX intake, licensing and environmental ingestion. The first code
+(RFC-0007, the metadata unit validator) is merged on `develop` with a green test
+suite. Next: the first two Foundation Engines (FE-005 Context, FE-006 Behavioral),
+each behind its own RFC — *no line of code without a corresponding RFC.*
 
 ## Repository
 

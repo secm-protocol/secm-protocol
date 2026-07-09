@@ -60,9 +60,9 @@ Rules:
    (RFC-0000 §4 + §22: neutral exposure at UI level, full transparency at audit level).
 3. **Units are immutable.** Corrections create new units that supersede old ones via
    provenance; history is never rewritten (RFC-0000 §14).
-4. **Confidence is mandatory** and must be calibratable (see draft: Outcome Registry).
+4. **Confidence is mandatory** and must be calibratable (see RFC-0009).
 5. **`consent_scope` is mandatory for any unit derived from personal data**
-   (see draft: Privacy Architecture; RFC-0001 §4 rank 1).
+   (see RFC-0008; RFC-0001 §4 rank 1).
 
 ## Validation Criteria
 
@@ -76,7 +76,7 @@ Rules:
 1. **What could fail?** Schema too rigid for future engines → mitigated by semantic
    versioning and an extensible `value` field.
 2. **Wrong assumptions?** That one envelope fits all engines; the reference slice
-   (see draft) exists to test this cheaply.
+   (RFC-0013) exists to test this cheaply.
 3. **Biases?** Envelope design biased toward person-entities; graph entity types from
    RFC-0000 §12 are all first-class in `entity_ref`.
 4. **Reversibility?** Schema changes are Class 2 RFCs; old units remain valid under

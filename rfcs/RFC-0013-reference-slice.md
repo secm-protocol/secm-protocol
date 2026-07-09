@@ -1,8 +1,9 @@
-# DRAFT — v1.0 Reference Implementation Slice
+# RFC-0013 — v1.0 Reference Implementation Slice
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0013 |
+| **Status** | Accepted — 2026-07-09 (slice scope fixed: FE-005 + FE-006 → CKE minimal → FE-008 loop → Personal Solver) |
 | **Class** | 2 (Substantive) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0000, RFC-0001, RFC-0002 |
@@ -33,7 +34,7 @@ The slice (exact scope to be fixed by the Vision Keeper):
    from day one.
 3. **CKE minimal convergence** — combines the two engines' metadata into one
    explainable, confidence-scored directional estimation.
-4. **FE-008 minimal loop** — outcomes registered (draft-outcome-registry, minimal form),
+4. **FE-008 minimal loop** — outcomes registered (RFC-0009, minimal form),
    calibration measured.
 5. **One Solver** — proposed: Personal Solver, single narrow question type.
 
@@ -67,3 +68,4 @@ Each component of the slice still requires its own Class 2 RFC before code
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-08 | Draft | — |
+| 2026-07-09 | **Accepted** (en-bloc Vision Keeper approval); proposed engine pair FE-005 + FE-006 confirmed | Vision Keeper (Osvaldo) |
