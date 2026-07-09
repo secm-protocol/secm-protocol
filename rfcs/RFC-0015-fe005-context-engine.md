@@ -1,8 +1,9 @@
-# DRAFT — FE-005 Context System: RX Context Profile v0.1
+# RFC-0015 — FE-005 Context System: RX Context Profile v0.1
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0015 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive — Foundation Engine specification) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0002, RFC-0003, RFC-0007, RFC-0008, RFC-0011, RFC-0013, RFC-0014 |
@@ -86,3 +87,4 @@ identity, never raw birth dates or exact locations (RFC-0008 Tier 0 guarantees).
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-09 | Draft | — |
+| 2026-07-09 | **Accepted** ("aceito os engines") | Vision Keeper (Osvaldo) |

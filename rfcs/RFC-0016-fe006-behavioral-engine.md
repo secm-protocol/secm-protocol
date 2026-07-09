@@ -1,8 +1,9 @@
-# DRAFT — FE-006 Behavioral System: RX Behavioral Encoding v0.1
+# RFC-0016 — FE-006 Behavioral System: RX Behavioral Encoding v0.1
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0016 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive — Foundation Engine specification) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0002, RFC-0003, RFC-0007, RFC-0011, RFC-0013 |
@@ -88,3 +89,4 @@ No randomness, no hidden state.
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-09 | Draft | — |
+| 2026-07-09 | **Accepted** ("aceito os engines") | Vision Keeper (Osvaldo) |
