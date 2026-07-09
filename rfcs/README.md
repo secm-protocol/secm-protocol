@@ -8,37 +8,37 @@ specification (RFC-0000 §21).
 | RFC | Title | Status | Class |
 |---|---|---|---|
 | [RFC-0000](RFC-0000-genesis.md) | SECM Genesis Directive | Constitutional — Ratified | 3 |
-| [RFC-0001](RFC-0001-constitution.md) | Operational Constitution: Governance Mechanics | **Ratified 2026-07-09** | 3 |
-| [RFC-0002](RFC-0002-metadata-schema.md) | Protocol Language: Canonical Metadata Schema | **Accepted 2026-07-09** | 2 |
-| [RFC-0006](RFC-0006-licensing.md) | Protocol Licensing (Apache 2.0 + CC BY 4.0) | **Accepted 2026-07-09** | 3 |
-| [RFC-0007](RFC-0007-schema-validator.md) | Reference Implementation: Metadata Unit Validator | **Accepted 2026-07-09** | 2 |
+| [RFC-0001](RFC-0001-constitution.md) | Operational Constitution: Governance Mechanics | Ratified 2026-07-09 | 3 |
+| [RFC-0002](RFC-0002-metadata-schema.md) | Protocol Language: Canonical Metadata Schema | Accepted 2026-07-09 | 2 |
+| [RFC-0003](RFC-0003-semantic-layer.md) | Universal Semantic Layer: Identifier Registry | Accepted 2026-07-09 | 2 |
+| [RFC-0006](RFC-0006-licensing.md) | Protocol Licensing (Apache 2.0 + CC BY 4.0) | Accepted 2026-07-09 | 3 |
+| [RFC-0007](RFC-0007-schema-validator.md) | Reference Implementation: Metadata Unit Validator | Accepted 2026-07-09 | 2 |
+| [RFC-0008](RFC-0008-privacy-architecture.md) | Privacy Architecture: Data Protection by Design | Accepted 2026-07-09 | 3 |
+| [RFC-0009](RFC-0009-outcome-registry.md) | Outcome Registry: The Historical Knowledge Brain | Accepted 2026-07-09 | 2 |
+| [RFC-0010](RFC-0010-contribution-weight.md) | Contribution Weight System (pseudonymous governance) | Accepted 2026-07-09 | 3 |
+| [RFC-0011](RFC-0011-rx-input-specification.md) | RX Input Specification: The 10-Question Intake | Accepted 2026-07-09 | 2 |
+| [RFC-0012](RFC-0012-engine-classification.md) | Engine Classification: Engines vs Core Services | Accepted 2026-07-09 | 3 |
+| [RFC-0013](RFC-0013-reference-slice.md) | v1.0 Reference Implementation Slice | Accepted 2026-07-09 | 2 |
+| [RFC-0014](RFC-0014-environmental-ingestion.md) | Environmental Ingestion: The Protocol Updates Its World Model | Accepted 2026-07-09 | 2 |
 
 ## Founding Roadmap
 
-The numbering plan recorded at the protocol's founding:
-
 | RFC | Title | Status |
 |---|---|---|
-| RFC-0002 | Protocol Language (canonical metadata schema) | **Accepted** → [RFC-0002](RFC-0002-metadata-schema.md) |
-| RFC-0003 | Universal Semantic Layer | Draft exists → [draft-semantic-layer](drafts/draft-semantic-layer.md) |
+| RFC-0002 | Protocol Language | **Accepted** |
+| RFC-0003 | Universal Semantic Layer | **Accepted** |
 | RFC-0004 | Universal Knowledge Graph | Planned |
-| RFC-0005 | Foundation Engines | Planned |
+| RFC-0005 | Foundation Engines (full specification of all nine) | Planned |
 
 ## Drafts awaiting review
 
-Drafts receive an RFC number only on acceptance by protocol consensus
-(RFC-0001 §2). Rejected/superseded drafts are archived, never deleted.
+Drafts receive an RFC number only on acceptance by protocol consensus (RFC-0001 §2).
+Rejected/superseded drafts are archived, never deleted.
 
 | Draft | Class | Proposed by |
 |---|---|---|
-| [draft-engine-classification](drafts/draft-engine-classification.md) | 3 | Claude (AI) |
-| [draft-privacy-architecture](drafts/draft-privacy-architecture.md) | 3 | Osvaldo + Claude (AI) |
-| [draft-outcome-registry](drafts/draft-outcome-registry.md) | 2 | **Osvaldo (Vision Keeper)** |
-| [draft-contribution-weight](drafts/draft-contribution-weight.md) | 3 | **Osvaldo (Vision Keeper)** + Claude (AI) |
-| [draft-rx-input-specification](drafts/draft-rx-input-specification.md) | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
-| [draft-semantic-layer](drafts/draft-semantic-layer.md) | 2 | Claude (AI) |
-| [draft-environmental-ingestion](drafts/draft-environmental-ingestion.md) | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
-| [draft-reference-slice](drafts/draft-reference-slice.md) | 2 | Claude (AI) |
+| [draft-fe006-behavioral-engine](drafts/draft-fe006-behavioral-engine.md) | 2 | Claude (AI) |
+| [draft-fe005-context-engine](drafts/draft-fe005-context-engine.md) | 2 | Claude (AI) |
 
 ## Process
 

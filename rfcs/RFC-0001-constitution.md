@@ -51,7 +51,7 @@ Everything else in the protocol, including this RFC, is amendable under §3 belo
 
 Triggered when the project has **three or more maintainers** with sustained
 contribution, formalized by a Class 3 decision. Once the Contribution Weight System
-(see `rfcs/drafts/draft-contribution-weight.md`) is ratified, "maintainer" is defined
+(see `RFC-0010`) is ratified, "maintainer" is defined
 objectively as a contributor key above the active-weight threshold; until then,
 sustained contribution is assessed by the Vision Keeper.
 
@@ -107,7 +107,7 @@ When two protocol principles conflict in a concrete decision, the higher rank pr
    authority.
 4. **Historical preservation** — records are kept, but never at the cost of ranks 1–3
    (e.g., personal data is erasable; only content-free proofs are permanent — see
-   draft: Privacy Architecture).
+   RFC-0008).
 5. **Performance and efficiency** — always last. Never traded against the ranks above.
 
 **Interpreter:** conflicts are resolved by the Vision Keeper (Phase 1) or the Council

@@ -6,7 +6,7 @@
 | **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive — first protocol code) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
-| **Requires** | RFC-0002 (accepted), draft-semantic-layer |
+| **Requires** | RFC-0002 (accepted), RFC-0003 |
 | **Created** | 2026-07-09 |
 
 ## Summary
@@ -39,7 +39,7 @@ implementation/
   pyproject.toml
   src/secm/
     __init__.py
-    registry.py    # Universal Semantic Layer v0.1 identifiers (per draft-semantic-layer)
+    registry.py    # Universal Semantic Layer v0.1 identifiers (per RFC-0003)
     schema.py      # RFC-0002 envelope validation
   tests/
     test_schema.py

@@ -1,13 +1,13 @@
-# DRAFT — Universal Semantic Layer: Identifier Registry
+# RFC-0003 — Universal Semantic Layer: Identifier Registry
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0003 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0000 §11, RFC-0002 |
 | **Created** | 2026-07-08 |
-| **Roadmap slot** | RFC-0003 (Universal Semantic Layer) if accepted |
 
 ## Summary
 
@@ -97,3 +97,4 @@ wording — comparability across languages is structural.
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-08 | Draft | — |
+| 2026-07-09 | **Accepted** (en-bloc Vision Keeper approval) | Vision Keeper (Osvaldo) |

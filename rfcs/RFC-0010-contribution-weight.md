@@ -1,8 +1,9 @@
-# DRAFT — Contribution Weight System (CWS): Pseudonymous, Work-Earned Governance
+# RFC-0010 — Contribution Weight System (CWS): Pseudonymous, Work-Earned Governance
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0010 |
+| **Status** | Accepted — 2026-07-09 (proposed parameters adopted; amendable by Class 3) |
 | **Class** | 3 (Constitutional — defines voting weight) |
 | **Authors** | **Vision Keeper (Osvaldo)** — requirements; Implementation Workforce (Claude — AI, design and drafting) |
 | **Requires** | RFC-0000, RFC-0001 |
@@ -160,3 +161,4 @@ Stated openly, because hiding them would violate §22:
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-08 | Draft | — |
+| 2026-07-09 | **Accepted** with proposed parameters (half-life 24mo; threshold 100 CP; founder share 25%; per-key cap 25%) | Vision Keeper (Osvaldo) |

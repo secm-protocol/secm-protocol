@@ -1,8 +1,9 @@
-# DRAFT — Engine Classification: Transformation Engines vs Protocol Core Services
+# RFC-0012 — Engine Classification: Transformation Engines vs Protocol Core Services
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0012 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 3 (Constitutional — touches Foundation Engine structure) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0000, RFC-0001 |
@@ -57,3 +58,4 @@ improvable through the RFC process, or the protocol cannot follow its own §14.
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-08 | Draft | — |
+| 2026-07-09 | **Accepted** (en-bloc Vision Keeper approval) | Vision Keeper (Osvaldo) |

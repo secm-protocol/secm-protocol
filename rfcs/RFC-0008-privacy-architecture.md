@@ -1,8 +1,9 @@
-# DRAFT — Privacy Architecture: Data Protection by Design
+# RFC-0008 — Privacy Architecture: Data Protection by Design
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review |
+| **RFC** | 0008 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 3 (Constitutional — implements precedence rank 1) |
 | **Authors** | Vision Keeper (Osvaldo — requirement); Implementation Workforce (Claude — AI, drafting) |
 | **Requires** | RFC-0000, RFC-0001, RFC-0002 |
@@ -62,7 +63,7 @@ context — de-identified — because what serves the mission is understanding d
      version records, DOIs, aggregate statistics that cannot be re-identified.
      Any future blockchain anchoring stores **hashes only**, never content.
 5. **Continuity token — longitudinal linkage without identity.** The learning loop
-   (draft: Outcome Registry) needs to connect a person's later outcomes to their
+   (RFC-0009) needs to connect a person's later outcomes to their
    earlier estimations. Since the protocol stores no identity, linkage works through a
    **random anonymous token generated at RX time and held by the person** — the
    protocol stores only the token, linkable to that person's de-identified metadata but
@@ -110,3 +111,4 @@ context — de-identified — because what serves the mission is understanding d
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-08 | Draft | — |
+| 2026-07-09 | **Accepted** (en-bloc Vision Keeper approval) | Vision Keeper (Osvaldo) |
