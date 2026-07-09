@@ -38,6 +38,9 @@ REGISTRY: dict[str, str] = {
     "PERSON_BEHAVIOR_HORIZON": ACTIVE,
     # Person — behavioral composite (added per RFC-0016)
     "PERSON_BEHAVIOR_PROFILE": ACTIVE,
+    # Person — CKE output (added per RFC-0017); PERSON_ namespace so consent
+    # enforcement applies automatically to estimations
+    "PERSON_DIRECTIONAL_ESTIMATION": ACTIVE,
     # Person — behavioral (reserved, benchmark-gated swaps)
     "PERSON_BEHAVIOR_HABIT": RESERVED,
     "PERSON_BEHAVIOR_SOCIAL": RESERVED,
