@@ -1,8 +1,9 @@
-# DRAFT — CKE Minimal Convergence: The Directional Estimation v0.1
+# RFC-0017 — CKE Minimal Convergence: The Directional Estimation v0.1
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review (implementation on `feature/rfc-0017-cke`, merge gated on acceptance) |
+| **RFC** | 0017 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive — Protocol Core service, per RFC-0012) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0002, RFC-0003, RFC-0007, RFC-0012, RFC-0013, RFC-0015, RFC-0016 |
@@ -102,3 +103,4 @@ engine id `CKE` (Protocol Core, RFC-0012 — versionable, never frozen).
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-09 | Draft; implementation started on feature branch per CONTRIBUTING flow | — |
+| 2026-07-09 | **Accepted** — implementation merged to `develop`, 49/49 tests green | Vision Keeper (Osvaldo) |
