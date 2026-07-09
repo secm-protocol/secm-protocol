@@ -36,6 +36,8 @@ REGISTRY: dict[str, str] = {
     "PERSON_BEHAVIOR_DECISION": ACTIVE,
     "PERSON_BEHAVIOR_RISK": ACTIVE,
     "PERSON_BEHAVIOR_HORIZON": ACTIVE,
+    # Person — behavioral composite (added per RFC-0016)
+    "PERSON_BEHAVIOR_PROFILE": ACTIVE,
     # Person — behavioral (reserved, benchmark-gated swaps)
     "PERSON_BEHAVIOR_HABIT": RESERVED,
     "PERSON_BEHAVIOR_SOCIAL": RESERVED,
