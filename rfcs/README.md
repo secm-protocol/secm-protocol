@@ -32,6 +32,7 @@ Drafts receive an RFC number only on acceptance by protocol consensus
 | [draft-engine-classification](drafts/draft-engine-classification.md) | 3 | Claude (AI) |
 | [draft-privacy-architecture](drafts/draft-privacy-architecture.md) | 3 | Osvaldo + Claude (AI) |
 | [draft-outcome-registry](drafts/draft-outcome-registry.md) | 2 | **Osvaldo (Vision Keeper)** |
+| [draft-contribution-weight](drafts/draft-contribution-weight.md) | 3 | **Osvaldo (Vision Keeper)** + Claude (AI) |
 | [draft-reference-slice](drafts/draft-reference-slice.md) | 2 | Claude (AI) |
 
 ## Process

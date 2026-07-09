@@ -49,17 +49,39 @@ Everything else in the protocol, including this RFC, is amendable under §3 belo
 
 ### Phase 2 — Council
 
-Triggered when the project has **three or more human maintainers** with sustained
-contribution (defined as meaningful contributions across at least 6 months), formalized
-by a Class 3 decision.
+Triggered when the project has **three or more maintainers** with sustained
+contribution, formalized by a Class 3 decision. Once the Contribution Weight System
+(see `rfcs/drafts/draft-contribution-weight.md`) is ratified, "maintainer" is defined
+objectively as a contributor key above the active-weight threshold; until then,
+sustained contribution is assessed by the Vision Keeper.
 
-- **Class 2 (substantive) changes:** simple majority of the Maintainer Council.
-- **Class 3 (constitutional) changes:** two-thirds supermajority of the Council **and**
-  Vision Keeper assent while the founding Vision Keeper is active.
-- Tie-breaking: the Vision Keeper; after the founding Vision Keeper's tenure, the
-  Council must define a successor mechanism by Class 3 decision **before** the transition.
+- **Class 2 (substantive) changes:** majority of Maintainer Council voting weight.
+  Under the Contribution Weight System, votes are weighted by active contribution
+  weight; otherwise, one maintainer, one vote.
+- **Class 3 (constitutional) changes:** two-thirds supermajority of Council voting
+  weight **and** Vision Keeper assent while the founding Vision Keeper is active.
+- Tie-breaking: the Vision Keeper while active; otherwise the proposal fails and the
+  status quo prevails.
 
 No phase transition is automatic. Every transition is itself a Class 3 decision.
+
+### Continuity and Succession
+
+The protocol must survive without depending on any person — including its founder
+(Architect's Charter, principle 7, applied to people, not only to services).
+
+1. **Voluntary transition:** the Vision Keeper may trigger Phase 2, appoint a
+   successor, step down, or reduce their own powers at any time by Class 3 decision.
+2. **Incapacity:** if the Vision Keeper performs no signed governance action for
+   **12 consecutive months**, active maintainers may activate Phase 2 by two-thirds of
+   active voting weight, without Vision Keeper assent.
+3. **Founder privileges are personal, not inheritable.** On any transition that occurs
+   without voluntary appointment, the assent/veto right lapses permanently. The Council
+   may elect a new Vision Keeper as guardian of purpose (RFC-0000 §2), but the role
+   carries no veto after the founder.
+4. **If no active maintainers exist,** the protocol remains preserved across its four
+   layers (PRESERVATION.md); any future community may resume it under this
+   constitution, continuing from the last Historical Registration.
 
 ## 3. Amendment Process
 
@@ -133,7 +155,8 @@ Restating and operationalizing RFC-0000 §16:
 ## Premortem (mandatory, RFC-0000 §18)
 
 1. **What could fail?** Phase 1 concentrates authority in one person; mitigated by public
-   auditability of every decision and the immutable core.
+   auditability of every decision, the immutable core, and the Continuity and Succession
+   rules (§2), which guarantee the protocol survives the founder's absence.
 2. **What assumptions are wrong?** The Phase 2 trigger (3 maintainers / 6 months) may be
    miscalibrated; it is amendable by Class 3 without touching the immutable core.
 3. **What biases may emerge?** Founder bias in precedence interpretation; mitigated by
