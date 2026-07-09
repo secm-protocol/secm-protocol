@@ -17,7 +17,7 @@ The numbering plan recorded at the protocol's founding:
 | RFC | Title | Status |
 |---|---|---|
 | RFC-0002 | Protocol Language (canonical metadata schema) | Draft exists → [draft-metadata-schema](drafts/draft-metadata-schema.md) |
-| RFC-0003 | Universal Semantic Layer | Planned |
+| RFC-0003 | Universal Semantic Layer | Draft exists → [draft-semantic-layer](drafts/draft-semantic-layer.md) |
 | RFC-0004 | Universal Knowledge Graph | Planned |
 | RFC-0005 | Foundation Engines | Planned |
 
@@ -34,6 +34,8 @@ Drafts receive an RFC number only on acceptance by protocol consensus
 | [draft-outcome-registry](drafts/draft-outcome-registry.md) | 2 | **Osvaldo (Vision Keeper)** |
 | [draft-contribution-weight](drafts/draft-contribution-weight.md) | 3 | **Osvaldo (Vision Keeper)** + Claude (AI) |
 | [draft-rx-input-specification](drafts/draft-rx-input-specification.md) | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
+| [draft-semantic-layer](drafts/draft-semantic-layer.md) | 2 | Claude (AI) |
+| [draft-licensing](drafts/draft-licensing.md) | 3 | Claude (AI) |
 | [draft-reference-slice](drafts/draft-reference-slice.md) | 2 | Claude (AI) |
 
 ## Process
