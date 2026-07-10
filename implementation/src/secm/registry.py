@@ -23,6 +23,9 @@ REGISTRY: dict[str, str] = {
     "PERSON_NAME": ACTIVE,
     "PERSON_BIRTH_DATE": ACTIVE,
     "PERSON_BIRTH_LOCATION": ACTIVE,
+    # Person — structural (FE-001/FE-002 outputs, added per RFC-0022/0023)
+    "PERSON_NOMINAL_STRUCTURE": ACTIVE,
+    "PERSON_TEMPORAL_STRUCTURE": ACTIVE,
     # Person — positioning and context
     "PERSON_LOCATION_CURRENT": ACTIVE,
     "PERSON_FOCUS_DOMAIN": ACTIVE,
