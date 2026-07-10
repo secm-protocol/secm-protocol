@@ -13,7 +13,7 @@ import json
 
 from ..units import build_unit
 
-ENGINE = {"id": "FE-005", "version": "0.1.0"}
+ENGINE = {"id": "FE-005", "version": "0.2.0"}  # 0.2.0: hierarchical region matching (RFC-0020)
 
 # Structured self-declared facts baseline (RFC-0015 parameter).
 PROFILE_CONFIDENCE = 0.8
@@ -43,8 +43,17 @@ def parameters_hash() -> str:
         "profile_confidence": PROFILE_CONFIDENCE,
         "relevance_map": {k: list(v) for k, v in RELEVANCE_MAP.items()},
         "freshness": {"steps": _FRESHNESS_STEPS, "floor": _FRESHNESS_FLOOR},
+        "region_matching": "hierarchical-v1",
     }
     return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
+
+
+def region_matches(env_region: str | None, person_region: str) -> bool:
+    """Hierarchical region matching (RFC-0020): exact match, or a country-level
+    indicator (e.g. 'BR') matches any of its sub-regions ('BR-Sudeste')."""
+    if not env_region:
+        return False
+    return env_region == person_region or person_region.startswith(env_region + "-")
 
 
 def freshness_factor(created_at: str, *, now: datetime.datetime | None = None) -> float:
@@ -124,7 +133,9 @@ def profile(person_units: list[dict], environment_units: list[dict] = ()) -> lis
         if env.get("semantic_type") != "ECON_INDICATOR":
             continue
         env_value = env.get("value") or {}
-        if env_value.get("region") != region or env_value.get("indicator") not in relevant:
+        if not region_matches(env_value.get("region"), region):
+            continue
+        if env_value.get("indicator") not in relevant:
             continue
         confidence = (
             min(PROFILE_CONFIDENCE, float(env.get("confidence", 0.0)))

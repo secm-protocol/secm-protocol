@@ -1,0 +1,86 @@
+[
+  {
+    "schema_version": "0.1.0",
+    "id": "0264454d-52b4-44db-84e1-e5b4a943f2fc",
+    "entity_ref": "graph:place:BR",
+    "semantic_type": "ECON_INDICATOR",
+    "engine": {
+      "id": "INGEST-BCB",
+      "version": "0.1.0"
+    },
+    "transformation": {
+      "name": "bcb-sgs-ingestion",
+      "description": "fetches the most recent observation of a declared BCB SGS series and normalizes it into a canonical unit (RFC-0020 v0.1)",
+      "source_tradition": "official statistical source (Banco Central do Brasil, SGS)",
+      "parameters_hash": "d9f98dcab7122995f1bf4e138d886c76a2ec7d5aa3fdedd112539844ea023af4"
+    },
+    "value": {
+      "indicator": "interest_rate",
+      "value": 14.25,
+      "region": "BR",
+      "series": 432,
+      "reference_date": "05/08/2026"
+    },
+    "confidence": 0.95,
+    "provenance": [
+      "source-registry:bcb-sgs-432"
+    ],
+    "created_at": "2026-07-10T00:00:23.979560+00:00"
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "6db3b67d-5234-483f-a71a-c0060f766186",
+    "entity_ref": "graph:place:BR",
+    "semantic_type": "ECON_INDICATOR",
+    "engine": {
+      "id": "INGEST-BCB",
+      "version": "0.1.0"
+    },
+    "transformation": {
+      "name": "bcb-sgs-ingestion",
+      "description": "fetches the most recent observation of a declared BCB SGS series and normalizes it into a canonical unit (RFC-0020 v0.1)",
+      "source_tradition": "official statistical source (Banco Central do Brasil, SGS)",
+      "parameters_hash": "d9f98dcab7122995f1bf4e138d886c76a2ec7d5aa3fdedd112539844ea023af4"
+    },
+    "value": {
+      "indicator": "inflation",
+      "value": 0.58,
+      "region": "BR",
+      "series": 433,
+      "reference_date": "01/05/2026"
+    },
+    "confidence": 0.95,
+    "provenance": [
+      "source-registry:bcb-sgs-433"
+    ],
+    "created_at": "2026-07-10T00:00:24.330417+00:00"
+  },
+  {
+    "schema_version": "0.1.0",
+    "id": "5bb72197-e3a6-4278-943c-c3d01e384ebe",
+    "entity_ref": "graph:place:BR",
+    "semantic_type": "ECON_INDICATOR",
+    "engine": {
+      "id": "INGEST-BCB",
+      "version": "0.1.0"
+    },
+    "transformation": {
+      "name": "bcb-sgs-ingestion",
+      "description": "fetches the most recent observation of a declared BCB SGS series and normalizes it into a canonical unit (RFC-0020 v0.1)",
+      "source_tradition": "official statistical source (Banco Central do Brasil, SGS)",
+      "parameters_hash": "d9f98dcab7122995f1bf4e138d886c76a2ec7d5aa3fdedd112539844ea023af4"
+    },
+    "value": {
+      "indicator": "exchange_rate",
+      "value": 5.1329,
+      "region": "BR",
+      "series": 1,
+      "reference_date": "09/07/2026"
+    },
+    "confidence": 0.95,
+    "provenance": [
+      "source-registry:bcb-sgs-1"
+    ],
+    "created_at": "2026-07-10T00:00:24.687026+00:00"
+  }
+]
