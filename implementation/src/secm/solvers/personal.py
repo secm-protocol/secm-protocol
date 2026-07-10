@@ -1,9 +1,11 @@
-"""Personal Solver v0.1 (RFC-0019 draft).
+"""Personal Solver v0.2 (RFC-0019 + RFC-0021 draft).
 
-Translates one directional estimation into a human-readable reading:
-deterministic, versioned, rule-based rendering. Every sentence cites its
-evidence; the constitutional disclaimer is non-removable; confidence is
-inherited from the estimation, never higher.
+Translates one directional estimation into a human-readable reading that
+ANSWERS the question: ranked directional hypotheses with for/against
+evidence, indicator interpretations and structural risk exposures
+(directions layer, RFC-0021) — plus the v0.1 declaration rendering.
+Every claim cites its evidence; the constitutional disclaimer is
+non-removable; confidence is inherited from the estimation, never higher.
 """
 
 from __future__ import annotations
@@ -12,8 +14,9 @@ import hashlib
 import json
 
 from ..units import build_unit
+from . import directions
 
-ENGINE = {"id": "SOLVER-PERSONAL", "version": "0.1.0"}
+ENGINE = {"id": "SOLVER-PERSONAL", "version": "0.2.0"}
 
 SOURCE_TRADITION = "rule-based rendering of protocol estimations"
 
@@ -109,6 +112,7 @@ def parameters_hash() -> str:
         "rules": ALIGNMENT_RULES,
         "bands": _CONFIDENCE_BANDS,
         "disclaimer": DISCLAIMER,
+        "directions_table": directions.TABLE_VERSION,
     }
     return hashlib.sha256(
         json.dumps(payload, sort_keys=True, default=list).encode()
@@ -208,6 +212,20 @@ def solve(estimation: dict) -> dict:
     if annotations.get("environment_coverage") == "none":
         reasons.append("environment data gap lowered confidence (RFC-0017)")
 
+    # Directions layer (RFC-0021): the part that answers the question.
+    directional = directions.rank_hypotheses(estimation)
+    if directional["space_id"] is None:
+        statements.append(
+            {
+                "text": (
+                    "No decision space exists yet for this question; the reading "
+                    "cannot rank directions honestly. Decision spaces are added "
+                    "by Class 2 RFC."
+                ),
+                "based_on": [estimation["id"]],
+            }
+        )
+
     return build_unit(
         semantic_type="PERSON_DIRECTIONAL_READING",
         entity_ref=estimation["entity_ref"],
@@ -215,6 +233,14 @@ def solve(estimation: dict) -> dict:
         value={
             "question": value["question"],
             "statements": statements,
+            "context_interpretations": directional["interpretations"],
+            "direction_hypotheses": directional["hypotheses"],
+            "risk_exposures": directional["risks"],
+            "decision_space": {
+                "space_id": directional["space_id"],
+                "table_version": directional["table_version"],
+                "weight_basis": directions.WEIGHT_BASIS,
+            },
             "confidence": {"score": score, "band": _band(score), "reasons": reasons},
             "disclaimer": DISCLAIMER,
         },
