@@ -1,7 +1,7 @@
 [
   {
     "schema_version": "0.1.0",
-    "id": "0264454d-52b4-44db-84e1-e5b4a943f2fc",
+    "id": "dee633df-e65d-443d-a33c-da4224289e53",
     "entity_ref": "graph:place:BR",
     "semantic_type": "ECON_INDICATOR",
     "engine": {
@@ -25,11 +25,11 @@
     "provenance": [
       "source-registry:bcb-sgs-432"
     ],
-    "created_at": "2026-07-10T00:00:23.979560+00:00"
+    "created_at": "2026-07-10T00:17:51.193259+00:00"
   },
   {
     "schema_version": "0.1.0",
-    "id": "6db3b67d-5234-483f-a71a-c0060f766186",
+    "id": "869bf48c-06fc-4194-94d8-5618cf25ce39",
     "entity_ref": "graph:place:BR",
     "semantic_type": "ECON_INDICATOR",
     "engine": {
@@ -53,11 +53,11 @@
     "provenance": [
       "source-registry:bcb-sgs-433"
     ],
-    "created_at": "2026-07-10T00:00:24.330417+00:00"
+    "created_at": "2026-07-10T00:17:51.859023+00:00"
   },
   {
     "schema_version": "0.1.0",
-    "id": "5bb72197-e3a6-4278-943c-c3d01e384ebe",
+    "id": "243c0fe4-2415-4589-a036-fa91b666faf4",
     "entity_ref": "graph:place:BR",
     "semantic_type": "ECON_INDICATOR",
     "engine": {
@@ -81,6 +81,6 @@
     "provenance": [
       "source-registry:bcb-sgs-1"
     ],
-    "created_at": "2026-07-10T00:00:24.687026+00:00"
+    "created_at": "2026-07-10T00:17:53.012257+00:00"
   }
 ]
