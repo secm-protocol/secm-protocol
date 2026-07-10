@@ -88,3 +88,4 @@ identity, never raw birth dates or exact locations (RFC-0008 Tier 0 guarantees).
 |---|---|---|
 | 2026-07-09 | Draft | — |
 | 2026-07-09 | **Accepted** ("aceito os engines") | Vision Keeper (Osvaldo) |
+| 2026-07-09 | Amended by RFC-0020: hierarchical region matching; FE-005 version 0.2.0 | Class 2, via RFC-0020 acceptance |

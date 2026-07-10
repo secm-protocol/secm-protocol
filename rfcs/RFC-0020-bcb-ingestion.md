@@ -1,8 +1,9 @@
-# DRAFT — First Live Ingestion Pipeline: Banco Central do Brasil (SGS)
+# RFC-0020 — First Live Ingestion Pipeline: Banco Central do Brasil (SGS)
 
 | Field | Value |
 |---|---|
-| **Status** | Draft — awaiting Vision Keeper review (implementation on `feature/rfc-0020-bcb-ingestion`) |
+| **RFC** | 0020 |
+| **Status** | Accepted — 2026-07-09 |
 | **Class** | 2 (Substantive — first RFC-0014 pipeline + FE-005 amendment) |
 | **Authors** | Implementation Workforce (Claude — AI, labeled per RFC-0001 §7) |
 | **Requires** | RFC-0002, RFC-0007, RFC-0014, RFC-0015 |
@@ -72,3 +73,4 @@ domains. API verified live on 2026-07-09 (Selic 14.25%, IPCA 0.58%, USD 5.1329).
 | Date | Status | Decided by |
 |---|---|---|
 | 2026-07-09 | Draft; implementation on feature branch per CONTRIBUTING flow | — |
+| 2026-07-09 | **Accepted** — merged to `develop`, 73/73 tests, first live run committed | Vision Keeper (Osvaldo) |
