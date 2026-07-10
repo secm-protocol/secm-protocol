@@ -25,6 +25,7 @@ specification (RFC-0000 §21).
 | [RFC-0017](RFC-0017-cke-minimal-convergence.md) | CKE Minimal Convergence: The Directional Estimation v0.1 | Accepted 2026-07-09 | 2 |
 | [RFC-0018](RFC-0018-fe008-minimal-loop.md) | FE-008 Minimal Validation Loop: Outcomes and Calibration v0.1 | Accepted 2026-07-09 | 2 |
 | [RFC-0019](RFC-0019-personal-solver.md) | Personal Solver v0.1: The Human-Readable Reading | Accepted 2026-07-09 | 2 |
+| [RFC-0020](RFC-0020-bcb-ingestion.md) | First Live Ingestion Pipeline: BCB (SGS) + hierarchical regions | Accepted 2026-07-09 | 2 |
 
 ## Founding Roadmap
 
