@@ -45,6 +45,7 @@ Rejected/superseded drafts are archived, never deleted.
 |---|---|---|
 | [draft-ee001-cycle-analysis](drafts/draft-ee001-cycle-analysis.md) — *deferred until data exists* | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
 | [draft-ee002-coordination-concentration](drafts/draft-ee002-coordination-concentration.md) — *deferred until data exists* | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
+| [draft-ee003-structural-fragility](drafts/draft-ee003-structural-fragility.md) — *Bitcoin/crypto structural conditions, never price prediction* | 2 | **Osvaldo (Vision Keeper)** + Claude (AI) |
 
 ## Process
 
