@@ -74,4 +74,42 @@ what X cannot: completeness, not just timestamps.
 | Date | Event | Outcome |
 |---|---|---|
 | 2026-07-18 | Pre-registration committed | this document |
-| 2026-07-19 | Final played | *(to be appended — never edited above this line)* |
+| 2026-07-19 | **Final played: Spain 1–0 Argentina (extra time)** | **Prophecy FAILED** |
+
+### Resolution detail
+
+The claim was "Argentina beats Spain 3–2." Actual result: **Spain won 1–0 in extra
+time**. The prediction was correct on the pair of finalists and wrong on both the
+winner and the score — i.e. wrong on every component that carried the improbability.
+
+### Scoring of pre-registered statements
+
+| ID | Our registered estimate | Outcome | Result |
+|---|---|---|---|
+| **PR-1** | P(Argentina wins exactly 3–2) ≈ **0.02** | Did not occur | **Brier = (0.02 − 0)² = 0.0004** |
+| **PR-2** | Goalpost displacement to "called the finalists" framing if score missed | Resolution window open (72h from 2026-07-19) | Pending observation |
+| **PR-3** | No verifiable pre-commitment completeness will surface | No such evidence exists as of resolution | Standing |
+
+### Honest reading of our own score — the same standard applied to ourselves
+
+A Brier of 0.0004 on PR-1 is **not** evidence that this method predicts football. It is
+one statement, n=1. Claiming skill from a single low-probability call is precisely the
+survivorship error this case study documents, and the protocol refuses to commit it in
+its own favour. What the exercise *does* establish is procedural, and that is the point:
+
+1. **The conclusion was registered as invariant to the outcome** before the outcome
+   existed. The anecdote was E0 whether the score hit or missed; it missed, and the
+   classification did not need to move.
+2. **The asymmetry is now documented.** ~95k reposts and ~282k likes accrued to the
+   claim *before* resolution, on the strength of the finalists-only match. The
+   improbable component — the part that would have demanded explanation — failed.
+   Virality preceded, and was independent of, correctness.
+3. **The mechanism held.** Population-scale prediction volume guarantees partial hits;
+   partial hits are amplified retroactively; the complete prediction set remains
+   unauditable on a platform permitting silent deletion. Nothing about the resolution
+   changes the tier: **E0**, permanently, for want of completeness.
+
+The value of this case study was never in guessing a scoreline. It was in demonstrating
+that a claim can be timestamped, viral, and celebrated as precognition while being
+unfalsifiable *as evidence* — and that pre-registration is what separates a measurable
+forecast from a story told after the fact.
