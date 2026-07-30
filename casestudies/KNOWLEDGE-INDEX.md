@@ -48,6 +48,43 @@ Any probabilistic claim: explicit statement, resolution date, falsification crit
 hash-committed *before* resolution. Scored by Brier afterwards. Absence of this is the
 single reliable marker separating method from marketing.
 
+### M6. The mechanism gate (time lens)
+Apply to every cycle or trend claim, in any domain: **a cycle is real only if its
+producing mechanism can be named.**
+
+| Cycle | Mechanism | Status |
+|---|---|---|
+| Seasons | orbital tilt / solar angle | physical — real |
+| Halving | emission rule every 210,000 blocks | protocol — real |
+| Elections | constitutional term | legal — real |
+| Token unlock | vesting contract | contractual — real |
+| "4-year crypto cycle" | none stated | pattern in noise until named |
+
+Corollary: sort every finding into **dated + mechanism** (actionable), **cyclical
+without mechanism** (noise), **undated** (context only). Direction without timing is
+worthless — being early is operationally indistinguishable from being wrong.
+
+### M7. Layer separation (perception lens)
+Apply to every metric: **is this changing the thing, or changing how the thing is
+seen?** Both layers are real and both move capital; conflating them is the recurring
+error.
+
+| | Substance strong | Substance weak |
+|---|---|---|
+| **Perception strong** | already priced — nothing to do | **trap zone** (ONDO +20% / 0% capture; KAITO +106% / no revenue) |
+| **Perception weak** | **value zone** (Canton: 100% capture, −16% price) | correctly ignored |
+
+The divergence *between* layers is the signal — this is the general form of which
+EE-004's D1–D6 are instances. Combined with M6: a value-zone finding still requires a
+**dated catalyst with a named mechanism** to become actionable, otherwise it is a
+correct thesis with no clock.
+
+**Provenance:** M6 and M7 are decompositions of two "forbidden teachings" catalogued in
+1 Enoch's Book of the Watchers (astrology → calendar/timing; cosmetics → appearance
+management), per RFC-0000 §3–4: extract the transformation, discard the belief. The
+text's own thesis — capability delivered without the discernment to carry it — is why
+these lenses ship bound to M5 (keep score) rather than alone.
+
 ---
 
 ## PART 2 — Validated heuristics
