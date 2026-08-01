@@ -85,6 +85,44 @@ management), per RFC-0000 §3–4: extract the transformation, discard the belie
 text's own thesis — capability delivered without the discernment to carry it — is why
 these lenses ship bound to M5 (keep score) rather than alone.
 
+### M8. Network provenance mapping (the smiling face is rarely the structure)
+For any project, asset or institution, the visible figurehead is one node, not the map.
+Trace four layers:
+
+1. **Origin capital at the pivotal moment** — who funded the founder *before it was
+   obvious*, not who invests now.
+2. **The funder's other positions** — what else that capital network touches.
+3. **Structural dependencies** — custody, reserves, settlement rails, board interlocks.
+4. **What it actually reveals** — alignment and access, which is **not** control.
+
+**Calibration rule (mandatory, or the method self-destructs):** a grant, an early
+investment, a board seat and a controlling stake are four different things with four
+different implications. Overstating the link destroys credibility; ignoring it misses
+real structure. State which one you found.
+
+**Worked example — Ethereum (all verified 2026-07-31):**
+
+| Layer | Finding |
+|---|---|
+| Visible face | Vitalik Buterin |
+| Origin capital | **Thiel Fellowship, $100,000, 2014** — enabled dropping out of Waterloo to build Ethereum full-time |
+| Funder's network | Thiel co-founded PayPal (Confinity/X.com merger with Musk, 2000); co-founded **Palantir**, which signed a **strategic partnership with Israel's Ministry of Defense in January 2024**, announced at Palantir's board meeting in Tel Aviv following a meeting between Israeli defence officials and Thiel + Karp; valued in tens of millions |
+| Current institutional layer | BlackRock's BUIDL launched on Ethereum first; Coinbase custodies the major ETFs; Circle's reserves managed by BlackRock; DTCC tokenization runs on Besu, an Ethereum client (CS-0003) |
+| **Honest reading** | **Not control.** Thiel does not control Ethereum, and a 2014 fellowship grant conveys no governance rights. What it documents is that the same capital network behind payments infrastructure and defence-intelligence infrastructure identified and enabled the founder of the leading smart-contract network at its pivotal moment — and that a decade later, the largest asset manager on earth built its tokenization stack on that same network. **Alignment and access, traced through public record.** |
+
+**Why this matters operationally:** provenance predicts *which direction an institution
+bends under pressure* better than its stated mission does. It is also fully traceable
+from public sources — fellowship announcements, corporate filings, custody agreements,
+press releases — which is exactly why it is under-used.
+
+**Brazilian equivalent tooling (regional application):** CNPJ/QSA (Receita Federal),
+state Junta Comercial filings, Portal da Transparência, TCE decisions, Diário Oficial,
+CEIS/CNEP, TSE donation records. Detection patterns: shared addresses across
+unrelated CNPJs; the same accountant or lawyer across entities; administrators
+appearing across many unrelated companies (professional nominee marker); companies
+winning contracts shortly after incorporation; ownership changes clustered right after
+an administration change.
+
 ---
 
 ## PART 2 — Validated heuristics
