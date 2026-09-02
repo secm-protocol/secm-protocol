@@ -1,7 +1,7 @@
 [
   {
     "schema_version": "0.1.0",
-    "id": "cfb98ce7-1a0c-4c71-b58d-5f531079dfba",
+    "id": "edad3c65-88e9-4086-88c0-6e487e0e4456",
     "entity_ref": "graph:place:BR",
     "semantic_type": "ECON_INDICATOR",
     "engine": {
@@ -25,11 +25,11 @@
     "provenance": [
       "source-registry:bcb-sgs-432"
     ],
-    "created_at": "2026-09-01T13:49:20.820332+00:00"
+    "created_at": "2026-09-02T13:06:48.835447+00:00"
   },
   {
     "schema_version": "0.1.0",
-    "id": "3b33357b-4be0-41ee-8b69-f9c3cf4ebb25",
+    "id": "e87e75f1-e045-4ad0-bd97-c055d0bec5e6",
     "entity_ref": "graph:place:BR",
     "semantic_type": "ECON_INDICATOR",
     "engine": {
@@ -53,11 +53,11 @@
     "provenance": [
       "source-registry:bcb-sgs-433"
     ],
-    "created_at": "2026-09-01T13:49:21.533798+00:00"
+    "created_at": "2026-09-02T13:06:49.520074+00:00"
   },
   {
     "schema_version": "0.1.0",
-    "id": "bffda26a-86e2-4ab7-b346-c9dd546d68d6",
+    "id": "cdf595a7-1041-4797-b595-2f8ab1194d4c",
     "entity_ref": "graph:place:BR",
     "semantic_type": "ECON_INDICATOR",
     "engine": {
@@ -72,15 +72,15 @@
     },
     "value": {
       "indicator": "exchange_rate",
-      "value": 5.1816,
+      "value": 5.157,
       "region": "BR",
       "series": 1,
-      "reference_date": "31/08/2026"
+      "reference_date": "01/09/2026"
     },
     "confidence": 0.95,
     "provenance": [
       "source-registry:bcb-sgs-1"
     ],
-    "created_at": "2026-09-01T13:49:22.216053+00:00"
+    "created_at": "2026-09-02T13:06:50.202907+00:00"
   }
 ]
